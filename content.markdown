@@ -1,54 +1,36 @@
-% Dry Cereal v0.1.0
+% Dry Cereal v0.2.0dev
 % Ben Pringle
-% May 13, 2013
+% May 20, 2013
 
-Hi there! This document contains the core rules for *Dry Cereal*, a tabletop
-roleplaying game.  If you're familiar with this type of game, jump right in to
-the Quick Start section below. If the rules seem confusing, just keep
-reading -- more in-depth explanation on each concept will follow.
-
-Enjoy!
-
-Quick Start
-===========
-
-+----------------+--------+------------+---------------------+
-| Tier           | Value  | Knack cost | Untrained task odds |
-+================+========+============+=====================+
-|                | +1     | 1          |  1 to 1 (50%)       |
-| **Good**       |        |            |                     |
-|                | +2     | 3          |  2 to 1 (38%)       |
-+----------------+--------+------------+---------------------+
-|                | +3     | 6          |  3 to 1 (26%)       |
-| **Excellent**  |        |            |                     |
-|                | +4     | 10         |  5 to 1 (16%)       |
-+----------------+--------+------------+---------------------+
-|                | +5     | 15         |  10 to 1 (9%)       |
-| **Formidable** |        |            |                     |
-|                | +6     | 21         |  20 to 1 (4%)       |
-+----------------+--------+------------+---------------------+
+Overview
+========
 
 Making a Character
 ------------------
 
-Build your character from a starting pool of 15 **character points**. You can
+Build your character from a starting pool of 20 **character points**. You can
 spend character points on Knacks, Techniques, and Extras.
 
-**Knacks** represent broad talents or abilities, like "Hand-to-Hand Combat" or
-"Acrobatics." Every Knack starts with a default value of +0. You can improve a
-Knack to the next value by spending that number of character points.  For
-example, to improve from +0 to +1, you pay one point; to go from +1 to +2, you
-pay two *additional* points (for a total of three).
+**Knacks** represent broad talents or abilities, like "Close Combat" or
+"Acrobatics." A **Mediocre [+0]** Knack costs 1 character point, **Good [+2]**
+costs 4 points, and **Excellent [+4]** costs 16 points. (Untrained Knacks are
+treated as **Basic [-2]**.)
 
-With a Knack of +1 or +2, your character is **Good**.
+----
+Modifier                Cost (as Knack)
+-----------------       -------------------
+Basic [-2]              -
 
-At +3 or +4, a Knack is considered **Excellent**.
+Mediocre [+0]           1 character point
 
-Finally, a Knack of +5 or +6 is **Formidable**.
+Good [+2]               4 character points
+
+Excellent [+4]          16 character points
+----
 
 **Techniques** are specific, practiced actions that your character has mastered
--- for example, "pick a lock" or "do a roundhouse kick." Each technique costs
-two character points.
+-- for example, "pick a lock" or "do a roundhouse kick." Each technique costs 1
+character point.
 
 **Extras** cover anything and everything else, from "Filthy Rich" to
 "Teleportation." Any special power, background, or possession is an Extra.
@@ -60,22 +42,19 @@ Taking Action
 
 To attempt a non-trivial task, first check to see if any of your Knacks or
 Techniques apply. If you have a relevant Knack, your chances of success
-increase; if you have a relevant Technique, you *automatically* take an
-excellent result. (You can only apply one Knack or Technique at a time.)
+increase; if you have a relevant Technique, you *automatically* take a Good
+[+2] result. (You can only apply one Knack or Technique at a time.)
 
-Start by rolling **three six-sided dice** and adding their results together. If
+Start by rolling **two six-sided dice** and adding their results together. If
 you have a relevant Knack, add its value to your roll.  The amount by which
-your total exceeds **ten** is your **Margin**. This determines how well your
+your total exceeds **seven** is your **Margin**. This determines how well your
 character performs the task.
 
-With a Margin of +1 or +2, your character's performance was **Good**.
-
-At +3 or +4, a Margin is considered **Excellent**.
-
-Finally, a Margin of +5 or +6 is **Formidable**.
+Margins use the same scale as Knacks, ranging from **Basic [-2]** to
+**Excellent [+4]**.
 
 If you are using a Technique instead of a Knack, don't roll at all; you
-automatically have an Excellent Margin (+4).
+automatically have a Good [+2] Margin.
 
 ### Aiding and Hindering
 
@@ -86,7 +65,7 @@ character. If you choose to Aid, then your Margin is *added* to their roll; if
 you choose to Hinder, it is *subtracted*.
 
 If relevant, Techniques can also be used to Aid and Hinder -- you can
-automatically add (or subtract) a Margin of +4.
+automatically add (or subtract) a Good [+2] Margin.
 
 Improvement
 -----------
@@ -99,3 +78,15 @@ points. One character point can come from any of the following:
 - a few months of recreational practice (hobby, night school)
 
 Your GM will let you know when you've earned a new character point.
+
+* * * * *
+
+Knacks
+======
+
+Close Combat
+------------
+
+A character with the **Close Combat** Knack is proficient at fighting at close
+quarters, usually with fists or improvised weapons.
+
