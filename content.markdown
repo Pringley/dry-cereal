@@ -1,4 +1,4 @@
-% Dry Cereal v0.2.0
+% Dry Cereal v0.2.1
 % Ben Pringle
 % May 20, 2013
 
@@ -40,32 +40,55 @@ your Game Master about making up your own.
 Taking Action
 -------------
 
-To attempt a non-trivial task, first check to see if any of your Knacks or
-Techniques apply. If you have a relevant Knack, your chances of success
-increase; if you have a relevant Technique, you *automatically* take a Good
-[+2] result. (You can only apply one Knack or Technique at a time.)
+When a character takes action, his or her degree of success is measured by a
+**Margin**, which can be determined in one of several ways.
 
-Start by rolling **two six-sided dice** and adding their results together. If
-you have a relevant Knack, add its value to your roll.  The amount by which
-your total exceeds **seven** is your **Margin**. This determines how well your
-character performs the task.
+The player can decide how to approach the task:
 
-Margins use the same scale as Knacks, ranging from **Basic [-2]** to
-**Excellent [+4]**.
+1. **Use a Technique**
 
-If you are using a Technique instead of a Knack, don't roll at all; you
-automatically have a Good [+2] Margin.
+    If the task is one of the character's Techniques, he or she can
+    automatically use a Margin of **Good [+2]**.
+
+2. **Use a Knack**
+
+    Instead, if the task falls under a use case for one of the character's
+    Knacks, he or she can simply use the Knack's Modifier as the success
+    Margin. For example, a character with *Mediocre [+0] Close Combat* can
+    automatically throw a Mediocre [+0] punch.
+
+3. **Roll for it!**
+
+    Finally, if the task requires a Margin higher than the character can
+    achieve automatically, they can roll for it. First, the player rolls **two
+    six-sided dice** and adds them together. If the character has a relevant
+    Knack, add its Modifier to the total. (A Technique counts as a modifier of
+    **Good [+2]**. If the character has no relevant Knack or Technique, use
+    **Basic [-2]**.)
+
+    The amount by which the total exceeds **seven** is the resulting Margin.
+
+    ----
+    Margin                  Minimum total
+    -----------------       ---------------
+    Basic [-2]              5
+
+    Mediocre [+0]           7
+
+    Good [+2]               9
+
+    Excellent [+4]          11
+    ----
 
 ### Aiding and Hindering
 
-You can also **Aid** or **Hinder** the actions of other characters. Make a roll
-with one of your Knacks, as if you were attempting a task yourself. If your
-Margin is greater than zero, then you can choose to Aid or Hinder the acting
-character. If you choose to Aid, then your Margin is *added* to their roll; if
-you choose to Hinder, it is *subtracted*.
+Characters can also **Aid** or **Hinder** the actions of others. Treat this
+like a new task and calculate the character's Margin, either automatically
+through a Knack or Technique or by rolling for it (player's choice).
 
-If relevant, Techniques can also be used to Aid and Hinder -- you can
-automatically add (or subtract) a Good [+2] Margin.
+If the Margin is greater than zero, then the player can choose to Aid or Hinder
+the original acting character. If Aid is chosen, then this new Margin is
+*added* to the original character's; if Hinder, it is *subtracted*.
 
 Improvement
 -----------
