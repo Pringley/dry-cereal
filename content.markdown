@@ -1,4 +1,4 @@
-% Dry Cereal v0.2.1
+% Dry Cereal v0.2.2dev
 % Ben Pringle
 % May 20, 2013
 
@@ -9,15 +9,15 @@ Making a Character
 ------------------
 
 Build your character from a starting pool of 20 **character points**. You can
-spend character points on Knacks, Techniques, and Extras.
+spend character points on Skills, Techniques, and Extras.
 
-**Knacks** represent broad talents or abilities, like "Close Combat" or
-"Acrobatics." A **Mediocre [+0]** Knack costs 1 character point, **Good [+2]**
-costs 4 points, and **Excellent [+4]** costs 16 points. (Untrained Knacks are
+**Skills** represent broad talents or abilities, like "Close Combat" or
+"Acrobatics." A **Mediocre [+0]** Skill costs 1 character point, **Good [+2]**
+costs 4 points, and **Excellent [+4]** costs 16 points. (Untrained Skills are
 treated as **Basic [-2]**.)
 
 ----
-Modifier                Cost (as Knack)
+Modifier                Cost (as Skill)
 -----------------       -------------------
 Basic [-2]              -
 
@@ -50,10 +50,10 @@ The player can decide how to approach the task:
     If the task is one of the character's Techniques, he or she can
     automatically use a Margin of **Good [+2]**.
 
-2. **Use a Knack**
+2. **Use a Skill**
 
     Instead, if the task falls under a use case for one of the character's
-    Knacks, he or she can simply use the Knack's Modifier as the success
+    Skills, he or she can simply use the Skill's Modifier as the success
     Margin. For example, a character with *Mediocre [+0] Close Combat* can
     automatically throw a Mediocre [+0] punch.
 
@@ -62,8 +62,8 @@ The player can decide how to approach the task:
     Finally, if the task requires a Margin higher than the character can
     achieve automatically, they can roll for it. First, the player rolls **two
     six-sided dice** and adds them together. If the character has a relevant
-    Knack, add its Modifier to the total. (A Technique counts as a modifier of
-    **Good [+2]**. If the character has no relevant Knack or Technique, use
+    Skill, add its Modifier to the total. (A Technique counts as a modifier of
+    **Good [+2]**. If the character has no relevant Skill or Technique, use
     **Basic [-2]**.)
 
     The amount by which the total exceeds **seven** is the resulting Margin.
@@ -84,7 +84,7 @@ The player can decide how to approach the task:
 
 Characters can also **Aid** or **Hinder** the actions of others. Treat this
 like a new task and calculate the character's Margin, either automatically
-through a Knack or Technique or by rolling for it (player's choice).
+through a Skill or Technique or by rolling for it (player's choice).
 
 If the Margin is greater than zero, then the player can choose to Aid or Hinder
 the original acting character. If Aid is chosen, then this new Margin is
