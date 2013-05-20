@@ -4,7 +4,7 @@ CONTENT = content.markdown
 HEADER = header.latex
 
 PANDOC = pandoc
-FLAGS = --smart --standalone --number-sections
+FLAGS = --smart --standalone --number-sections --toc
 
 .PHONY: clean
 
