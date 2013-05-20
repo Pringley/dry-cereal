@@ -1,2 +1,2 @@
 % Set margins.
-\RequirePackage[margin=1in]{geometry}
+\usepackage[margin=1in]{geometry}
