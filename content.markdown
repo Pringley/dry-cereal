@@ -1,4 +1,4 @@
-% Dry Cereal v0.2.0dev
+% Dry Cereal v0.2.0
 % Ben Pringle
 % May 20, 2013
 
@@ -80,13 +80,3 @@ points. One character point can come from any of the following:
 Your GM will let you know when you've earned a new character point.
 
 * * * * *
-
-Knacks
-======
-
-Close Combat
-------------
-
-A character with the **Close Combat** Knack is proficient at fighting at close
-quarters, usually with fists or improvised weapons.
-
